@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: employee
+  jpa: 
+    #database-platform: org.hiberante.dialect.Oracle10gDialect   
+    show-sql: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/springbootdb
+    username: root
+    password: root
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+    
+     
